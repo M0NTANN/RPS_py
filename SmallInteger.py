@@ -1,5 +1,3 @@
-
-
 def sub_cycle(xx, schet_povt):
     while schet_povt >= 1:
         xx = xx - 10000
