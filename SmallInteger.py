@@ -1,8 +1,12 @@
+
+
 def sub_cycle(xx, schet_povt):
     while schet_povt >= 1:
         xx = xx - 10000
         schet_povt = schet_povt - 1
     return xx
+
+
 
 def sub_cycle_2(xx, schet_povt):
     while schet_povt >= 1:
@@ -10,7 +14,12 @@ def sub_cycle_2(xx, schet_povt):
         schet_povt = schet_povt - 1
     return xx
 
+
+
+
 class SmallInteger:
+
+
     def check(x):
         xx = x
         if xx > 10000 or xx < -10000:
